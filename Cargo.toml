@@ -1,0 +1,12 @@
+[package]
+name = "finder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+walkdir = "2.5"
+pdf-extract = "0.9"
+encoding_rs = "0.8.35"
+tantivy = "0.24.1"
+clap = { version = "4.5.39", features = ["derive"] }
+indicatif = "0.17.11"
